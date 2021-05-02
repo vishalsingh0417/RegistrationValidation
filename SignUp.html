@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Registration Page</title>
+</head>
+
+<link rel="stylesheet" href="SignUpCSS.css">
+<script src="SignUpJS.js"></script>
+
+
+<body>
+    <table id="tsu">
+        <th colspan="3"><h1>Sign Up</h1></th>
+    </table>
+           
+    
+   
+    
+ <form id="myform" name="myform" method="POST">
+ 
+  <table>
+   
+    <tr>
+        <td>Email<b>*</b> </td><td>:</td>
+        <td> <input type="email" name="email" placeholder="Enter Mail">
+          <span id="email"></span>
+        </td>
+       </tr>
+
+
+    <tr>
+        <td>First Name<b >*</b> </td><td>:</td>
+        <td ><input type="text" name="fname" placeholder="Enter First Name"  >
+        <span id="fname"></span>
+        </td>
+           </tr>
+   
+    <tr>
+        <td>Last Name </td><td>:</td>
+        <td ><input type="lname" name="lname" placeholder="Enter Last Name"  >
+        <span id="lname"></span>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td>Date Of Birth<b >*</b></td><td>:</td>
+        <td><input type="date" name="dob" placeholder="Date Of Birth" >
+        <span id="dob"></span>
+        </td>
+    </tr>
+  
+
+    <tr>
+        <td >Address<b >*</b> </td><td>:</td>
+        <td><textarea name="address"></textarea>
+          <span id="address"></span>
+        </td>
+    </tr>
+    
+    <tr>
+        <td>Pincode<b >*</b> </td><td>:</td>
+    <td><input type="text" name="pcode"  placeholder="PinCode" maxlength="6" >
+    <span id="pcode"></span>
+    </td>
+    </tr>
+
+
+    </td>
+       
+       <tr>
+        <td>Gender<b >*</b></td><td>:</td>
+        <td>
+         <input type="radio" name="gender"> Male
+         <input type="radio" name="gender"> Female
+         <span id="gender"></span>
+        </td>
+       </tr>
+
+
+       <tr>
+        <td>Phone No.<b >*</b> </td><td>:</td>
+        <td>
+         <input type="tel" name="mobile" placeholder="Mobile" >
+         <span id="mobile"></span>
+        </td>
+    </tr>
+
+  
+
+    <tr>
+        <td>Password<b >*</b> </td><td>:</td>
+          <td><input type="password" name="pwd" placeholder="Password" >
+          <span id="pwd"></span>
+          </td>
+         </tr>
+
+
+         <tr>
+          <td>Confirm Password<b>*</b></td><td>:</td>
+            <td><input type="password" name="cpwd" placeholder="Confirm Password" >
+            <span id="cpwd"></span>
+            </td>
+           </tr>
+
+  
+  </table>
+<br><br>
+
+  <input id="submit" type="submit" value="Submit" name="submit" onclick="return validate()">
+
+ 
+
+<h5>Already Have An Account? <a href="Login.html">Login</a></h5>
+  
+
+
+  </form>
+ 
+</body>
+
+
+
+
+</html>

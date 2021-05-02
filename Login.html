@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<HTML>
+    <head>
+    <title>Login Page</title>
+
+    <script src="LoginJS.js"> </script>
+
+<link rel="stylesheet" href="LoginCSS.css">
+
+    </head>
+ 
+
+
+<body >
+    
+    <table id="table">
+        <th colspan="3"><h1>Login Page</h1></th>
+    </table>
+
+     
+
+        
+
+
+<form name="myform" id="myform" method="POST">
+ 
+    <table>
+     
+      <tr>
+          <td>Email<b  >*</b> </td><td>:</td>
+          <td ><input type="email" name="email" placeholder="Enter Your Mail"  >
+        <span id="email" ></span>
+        </td>
+             </tr> 
+     
+      <tr>
+          <td>Password<b >*</b> </td><td>:</td>
+          <td ><input type="password"  name="pwd" placeholder="Enter Password"  > 
+        <span id="pwd" ></span>
+        </td>
+      </tr>
+  
+</table>
+<br><br>
+
+ <input type="submit" id="signin"  value="SignIn" onclick="return validate()"><br>
+ <span id="response" ></span>
+
+ <h5 >Create an account: <a href="SignUp.html">Sign Up</a></h5>
+</form>
+</Body>
+</HTML>

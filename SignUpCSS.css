@@ -1,0 +1,55 @@
+#myform{
+   
+ margin-left: 390px;
+ width: 400px; 
+ padding-top: 30px;
+ padding-left: 80px;
+ padding-bottom:30px;
+ padding-right: 70px;
+ border-style: groove;
+ border-width: thin;
+ border-radius: 40px;
+ border: 5px solid #7e7cf7;
+ 
+}
+
+#submit{
+
+margin-left: 100px;
+padding: 8px 50px;
+width: 200px;
+text-align: center;
+border-radius:4px;
+background-color: #04AA6D;
+color: white;
+cursor: pointer;
+}
+
+#submit:hover {
+  opacity: 0.8;
+}
+
+tr,td{
+
+    width:150px;
+    
+                padding:5px
+}
+
+b{
+  color: red;
+}
+
+span{
+  color: red;
+}
+
+#tsu{
+
+  margin-left: 400px; 
+  width: 545px;
+}
+
+h5{
+  text-align: center;
+}

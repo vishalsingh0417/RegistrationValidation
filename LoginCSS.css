@@ -1,0 +1,67 @@
+#myform{
+  
+ margin-left: 390px;
+ width: 400px; 
+ padding-top: 30px;
+ padding-left: 80px;
+ padding-bottom:30px;
+ padding-right: 70px;
+ border-style: groove;
+ border-width: thick;
+ border-radius: 30px;
+ 
+}
+ 
+
+#signin{        
+
+margin-left:110px ;
+padding: 5px;
+width: 180px;
+background-color: #04AA6D;
+border-radius:4px;
+color: white;
+
+   
+}
+
+
+
+
+
+
+tr,td{
+
+width:150px;
+
+            padding:10px
+}
+
+#response{
+    margin-left:60px ;
+   
+    width: 180px;
+
+}
+
+#table{
+
+  margin-top: 100px;
+   margin-left: 400px; 
+   width: 545px;
+    margin-bottom: 0;
+}
+
+b{
+  color: red;
+}
+
+h5{
+
+ text-align: center;
+}
+
+span{
+
+  color: red;
+}
